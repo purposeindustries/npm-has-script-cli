@@ -1,6 +1,6 @@
 {
   "name": "npm-has-script-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI that checks package.json for the given script",
   "main": "npm-has-script",
   "scripts": {
