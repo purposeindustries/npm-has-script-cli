@@ -31,5 +31,5 @@ ISC
 [npm-has-script]: https://npmjs.com/npm-has-script
 [npm]: https://npmjs.com/
 [npm-has-script-cli]: https://npmjs.com/npm-has-script-cli
-[travis-icon]: https://travis-ci.org/purposeindustries/npm-ha-script-cli.svg
-[travis]: https://travis-ci.org/purposeindustries/npm-ha-script-cli
+[travis-icon]: https://travis-ci.org/purposeindustries/npm-has-script-cli.svg
+[travis]: https://travis-ci.org/purposeindustries/npm-has-script-cli
