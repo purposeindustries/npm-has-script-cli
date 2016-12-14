@@ -1,0 +1,36 @@
+{
+  "name": "npm-has-script-cli",
+  "version": "1.0.0",
+  "description": "CLI that checks package.json for the given script",
+  "main": "npm-has-script",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "npm-has-script": "./npm-has-script"
+  },
+  "files": [
+    "npm-has-script"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purposeindustries/npm-has-script-cli.git"
+  },
+  "keywords": [
+    "npm",
+    "scripts",
+    "cli"
+  ],
+  "author": "Bence Dányi <bence@danyi.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purposeindustries/npm-has-script-cli/issues"
+  },
+  "homepage": "https://github.com/purposeindustries/npm-has-script-cli#readme",
+  "dependencies": {
+    "npm-has-script": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

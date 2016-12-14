@@ -1,0 +1,19 @@
+#!/bin/env node
+
+const has = require('npm-has-script');
+
+if (!process.argv[2]) {
+  console.log(`Usage:
+
+  $ npm-has-script name [dir]
+
+Check \`dir\` or the current dir for \`package.json\`, and exit with 0 if script
+\`name\` was found. Exit with 0 otherwise.`);
+  process.exit(0);
+}
+
+try {
+  process.exit(+!has(process.argv[2], process.argv[3]));
+} catch (err) {
+  process.exit(1);
+}
